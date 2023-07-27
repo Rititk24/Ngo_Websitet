@@ -1,0 +1,142 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Quicksand:wght@300&family=Urbanist:wght@400;600&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif, "Urbanist";
+    box-sizing:border-box;
+}
+nav-link:root {
+  --bs-dark-color:#1a1d20;
+  --seconadary-color:#c6c6c6;
+}
+.common-section
+{
+    padding: 0 0 9rem 0;
+}
+body {
+}
+/*navbar*/
+a
+{
+    text-decoration:none;
+}
+li
+{
+    list-style:none;
+}
+
+/*Home section Start*/
+.home-section .container
+{
+    display:grid;
+    
+}
+.bg-main
+{
+    height:100vh;
+    position:relative;
+}
+/*h1
+{
+    font-weight:800;
+    margin-top:5.67rem;
+    text-align:center;
+}*/
+p
+{
+    /*text-rendering:optimizeLegibility;*/
+    letter-spacing:0.01rem;
+    color:#808080;
+}
+#image
+{
+    height:25em;
+    width:25em;
+    margin-left:4.5em;
+}
+
+/*Shape Divider CSS*/
+.custom-shape-divider-bottom-1688550070 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1688550070 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1688550070 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*Our Works Section*/
+.Common-heading
+{
+    font-size:3rem;
+    letter-spacing:0.02rem;
+}
+.common-tittle
+{
+    margin-bottom:4rem;
+}
+.service-section
+{
+    padding:6rem 0 3rem 0;
+}
+.works-images
+{
+    height:18rem;
+}
+
+/*Contact Section CSS*/
+
+.contact-section
+{   
+    position:relative;
+    overflow:hidden;
+    
+}
+.form-section
+{
+    width:20px;
+}
+
+.bg-mainn
+{
+    height:100%;
+    position:relative;
+}
+#contact-us
+{
+    margin-top:23vh;
+}
+.custom-shape-divider-top-1688653555 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1688653555 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1688653555 .shape-fill {
+    fill: #FFFFFF;
+}
